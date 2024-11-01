@@ -1,0 +1,19 @@
+Nombre: Juan Pérez
+Cargo: Desarrollador
+Departamento: Tecnología
+Correo: juan.perez@example.com
+
+Nombre: María López
+Cargo: Analista
+Departamento: Finanzas
+Correo: maria.lopez@example.com
+
+Nombre: Carlos Rodríguez
+Cargo: Gerente
+Departamento: Ventas
+Correo: carlos.rodriguez@example.com
+
+Nombre: Ana Gómez
+Cargo: Desarrollador
+Departamento: Tecnología
+Correo: ana.gomez@example.com
