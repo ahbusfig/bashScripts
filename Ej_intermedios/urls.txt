@@ -1,0 +1,3 @@
+https://example.com/archivo1.txt
+https://example.com/archivo2.txt
+https://example.com/archivo3.txt

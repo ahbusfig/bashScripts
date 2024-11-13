@@ -1,0 +1,6 @@
+2023-10-01 12:00:00 INFO Inicio del proceso
+2023-10-01 12:01:00 ERROR Fallo en la conexión a la base de datos
+2023-10-01 12:02:00 INFO Proceso en ejecución
+2023-10-01 12:03:00 ERROR No se pudo encontrar el archivo de configuración
+2023-10-01 12:04:00 INFO Proceso completado
+2023-10-01 12:05:00 ERROR Error desconocido

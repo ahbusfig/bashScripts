@@ -1,0 +1,22 @@
+# Registro de ventas de la tienda
+ID, Producto, Precio, Cantidad, Cliente, Fecha, Estado
+1, Televisor, 450.00, 3, Juan Perez, 2024-11-01, success
+2, Lavadora, 300.00, 1, Maria Garcia, 2024-11-02, success
+3, Refrigerador, 600.00, 2, Luis Rodriguez, 2024-11-03, failed
+4, Microondas, 120.00, 5, Ana Martinez, 2024-11-04, success
+5, Computadora, 850.00, 1, Jorge Gomez, 2024-11-05, failed
+6, Televisor, 450.00, 2, Lucia Sanchez, 2024-11-06, success
+7, Lavadora, 300.00, 3, Alberto Torres, 2024-11-07, success
+8, Refrigerador, 600.00, 1, Rosa Ramos, 2024-11-08, success
+9, Microondas, 120.00, 4, Juan Perez, 2024-11-09, failed
+10, Computadora, 850.00, 2, Maria Garcia, 2024-11-10, success
+11, Televisor, 450.00, 1, Luis Rodriguez, 2024-11-11, failed
+12, Lavadora, 300.00, 2, Ana Martinez, 2024-11-12, success
+13, Refrigerador, 600.00, 3, Jorge Gomez, 2024-11-13, failed
+14, Microondas, 120.00, 1, Lucia Sanchez, 2024-11-14, success
+15, Computadora, 850.00, 5, Alberto Torres, 2024-11-15, failed
+16, Televisor, 450.00, 3, Rosa Ramos, 2024-11-16, success
+17, Lavadora, 300.00, 4, Juan Perez, 2024-11-17, success
+18, Refrigerador, 600.00, 2, Maria Garcia, 2024-11-18, success
+19, Microondas, 120.00, 5, Luis Rodriguez, 2024-11-19, failed
+20, Computadora, 850.00, 1, Ana Martinez, 2024-11-20, success

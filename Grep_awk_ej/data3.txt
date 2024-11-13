@@ -1,0 +1,6 @@
+ID, Producto, Precio, Cantidad, Cliente, Fecha, Estado
+11, Televisor, 450.00, 1, Luis Rodriguez, 2024-11-11, failed
+12, Lavadora, 300.00, 2, Ana Martinez, 2024-11-12, success
+13, Refrigerador, 600.00, 3, Jorge Gomez, 2024-11-13, failed
+14, Microondas, 120.00, 1, Lucia Sanchez, 2024-11-14, success
+15, Computadora, 850.00, 5, Alberto Torres, 2024-11-15, failed

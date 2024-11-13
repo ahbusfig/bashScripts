@@ -1,0 +1,77 @@
+Aquí tienes un resumen de los parámetros usados en los comandos `grep` y otros utilizados en las funciones, junto con su breve explicación:
+
+### **Parámetros de `grep`**:
+
+1. **`-i`**: 
+   - **Explicación**: Realiza una búsqueda *insensible* a mayúsculas y minúsculas (case-insensitive).
+   - **Ejemplo**: `grep -i "error" logfile.txt` buscará "error", "ERROR", "ErRoR", etc.
+
+2. **`-o`**:
+   - **Explicación**: Muestra solo las *coincidencias* encontradas, en lugar de las líneas completas.
+   - **Ejemplo**: `grep -o "failed" server.log` mostrará solo la palabra "failed" cada vez que aparezca.
+
+3. **`-v`**:
+   - **Explicación**: Muestra las líneas *que no* contienen la palabra o patrón especificado.
+   - **Ejemplo**: `grep -v "success" data.txt` muestra las líneas que *no* contienen la palabra "success".
+
+4. **`-E`**:
+   - **Explicación**: Permite usar *expresiones regulares extendidas* en la búsqueda, sin necesidad de escapar algunos caracteres especiales como `+`, `?`, etc.
+   - **Ejemplo**: `grep -E '\b[0-9]{4}[-/][0-9]{2}[-/][0-9]{2}\b' logfile.txt` buscará fechas en el formato YYYY-MM-DD o YYYY/MM/DD.
+
+5. **`-H`**:
+   - **Explicación**: Muestra el *nombre del archivo* junto con las coincidencias, útil cuando se busca en varios archivos.
+   - **Ejemplo**: `grep -H "fatal" *.log` mostrará el nombre del archivo junto con la línea que contiene la palabra "fatal".
+
+6. **`-n`**:
+   - **Explicación**: Muestra el *número de línea* donde se encuentra la coincidencia.
+   - **Ejemplo**: `grep -n "error" logfile.txt` mostrará el número de línea antes de la coincidencia.
+
+7. **`-c`**:
+   - **Explicación**: Muestra solo el *número de coincidencias* (líneas que contienen la palabra) en lugar de las líneas mismas.
+   - **Ejemplo**: `grep -c "failed" server.log` mostrará cuántas líneas contienen la palabra "failed".
+
+8. **`-w`**:
+   - **Explicación**: Hace que `grep` busque solo *coincidencias exactas* de la palabra (es decir, la palabra debe estar delimitada por espacios, puntos, comas, etc.).
+   - **Ejemplo**: `grep -w "error" logfile.txt` solo encontrará "error" y no "errors" o "terror".
+
+9. **`-r` o `-R`**:
+   - **Explicación**: Busca recursivamente dentro de todos los archivos de un directorio y sus subdirectorios.
+   - **Ejemplo**: `grep -r "fatal" /var/log/` buscará "fatal" en todos los archivos dentro de `/var/log/` y sus subdirectorios.
+
+### **Parámetros de otros comandos utilizados**:
+
+1. **`ls`**:
+   - **Explicación**: Lista el contenido de un directorio.
+   - **Ejemplo**: `ls *.txt` lista todos los archivos con la extensión `.txt` en el directorio actual.
+
+2. **`wc`** (word count):
+   - **Explicación**: Cuenta líneas, palabras y caracteres.
+   - **Parámetro `-l`**: Cuenta solo el número de líneas.
+   - **Ejemplo**: `grep -o "failed" server.log | wc -l` contará cuántas veces aparece "failed" en el archivo.
+
+3. **`read`**:
+   - **Explicación**: Permite leer entradas del usuario.
+   - **Ejemplo**: `read -p "¿Qué palabra buscas?" palabra_buscada` pide al usuario ingresar la palabra que desea buscar.
+
+4. **`pwd`** (print working directory):
+   - **Explicación**: Muestra el directorio actual en el que te encuentras.
+   - **Ejemplo**: `ubi=$(pwd)/$nombre_arch` almacena la ruta completa del archivo actual.
+
+---
+
+### **Resumen de parámetros más comunes**:
+- **`-i`**: Búsqueda insensible a mayúsculas/minúsculas.
+- **`-o`**: Muestra solo las coincidencias encontradas.
+- **`-v`**: Muestra las líneas que no contienen el patrón.
+- **`-E`**: Usar expresiones regulares extendidas.
+- **`-H`**: Muestra el nombre del archivo junto con las coincidencias.
+- **`-n`**: Muestra el número de línea de la coincidencia.
+- **`-c`**: Muestra el número total de coincidencias.
+- **`-w`**: Coincidencia exacta de la palabra.
+- **`-r` / `-R`**: Búsqueda recursiva.
+- **`ls`**: Listar archivos en un directorio.
+- **`wc -l`**: Contar el número de líneas.
+- **`pwd`**: Mostrar el directorio actual.
+- **`read`**: Leer entrada del usuario.
+
+Este resumen te ayudará a entender cómo utilizar los parámetros más importantes de `grep` y otros comandos en Bash para realizar búsquedas y manipular archivos de texto.
