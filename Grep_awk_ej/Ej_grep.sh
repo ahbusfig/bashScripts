@@ -112,8 +112,8 @@ function mostrar_lineas_sin_palabra() {
 }
 
 #------------------Para ejecutar la funcion
-#buscar_palabra_1archivo
+buscar_palabra_1archivo
 #buscar_fechas_1archivo
 #buscar_palabra_en_varios_archivos
-mostrar_lineas_sin_palabra
+# mostrar_lineas_sin_palabra
 #contar_ocurrencias_1archivo

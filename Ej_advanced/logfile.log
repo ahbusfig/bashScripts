@@ -1,0 +1,12 @@
+# FILE: logfile.log
+INFO 2023-10-01 10:00:00 - Starting process
+ERROR 2023-10-01 10:01:00 - Failed to connect to database
+INFO 2023-10-01 10:02:00 - Retrying connection
+ERROR 2023-10-01 10:03:00 - Failed to connect to database
+INFO 2023-10-01 10:04:00 - Connection successful
+ERROR 2023-10-01 10:05:00 - Timeout occurred during data retrieval
+INFO 2023-10-01 10:06:00 - Data retrieval successful
+ERROR 2023-10-01 10:07:00 - Failed to write data to file
+ERROR 2023-10-01 10:07:00 - Failed to write data to file
+ERROR 2023-10-01 10:07:00 - Failed to write data to file
+INFO 2023-10-01 10:08:00 - Process completed
